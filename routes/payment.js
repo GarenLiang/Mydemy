@@ -1,6 +1,6 @@
 var User = require('../models/user');
 var Course = require('../models/course');
-var stripe = require('stripe')('sk_test_RtVWGtHcykG3FyyNS1EGhbIq');
+var stripe = require('stripe')('???');
 var async = require('async');
 
 module.exports = function(app) {
