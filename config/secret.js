@@ -1,11 +1,11 @@
 module.exports = {
 
-  database: 'mongodb://root:abc123@ds153835.mlab.com:53835/codedemy',
+  database: 'mongodb://???',
   port: 8080,
-  secretKey: 'Arash1293123123',
+  secretKey: '???',
   facebook: {
-    clientID: '1805113583040280',
-    clientSecret: 'b34eaba0c81e09187e8a240ac9a99c79',
+    clientID: '???',
+    clientSecret: '???',
     profileFields: ['emails', 'displayName'],
     callbackURL: 'http://localhost:8080/auth/facebook/callback',
     passReqToCallback: true,
